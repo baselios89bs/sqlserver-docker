@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/mssql/server:2019-express
+FROM mcr.microsoft.com/azure-sql-edge:latest
 
 ENV ACCEPT_EULA=Y
 ENV SA_PASSWORD=Basel@123/FekraHub_546507
